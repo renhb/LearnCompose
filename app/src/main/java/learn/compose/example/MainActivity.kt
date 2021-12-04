@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.rememberNavController
 import dagger.hilt.android.AndroidEntryPoint
 import learn.compose.example.ui.components.*
@@ -29,11 +30,11 @@ class MainActivity : ComponentActivity() {
                 // ScaffoldExample()
 
                 // Navigation
-                // NavigationExample()
+                NavigationExample()
 
                 // ViewModel
-                val mainViewModel : MainViewModel by viewModels()
-                CounterScreen(mainViewModel)
+                // val mainViewModel : MainViewModel by viewModels()
+                // CounterScreen(mainViewModel)
             }
         }
     }

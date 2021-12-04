@@ -8,6 +8,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -15,6 +16,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import learn.compose.example.util.Constants
+import learn.compose.example.viewmodel.MainViewModel
 
 @Composable
 fun NavigationExample() {
@@ -38,14 +40,21 @@ fun NavHostContainer(
         startDestination = "home",
         modifier = Modifier.padding(paddingValues = padding),
         builder = {
-            // route : Home
+
+            // route: Home
             composable("home") {
                 HomeScreen()
             }
 
-            // route : profile
+            // route: profile
             composable("profile") {
                 ProfileScreen()
+            }
+
+            // route: Counter
+            composable("counter") {
+                val mainViewModel = hiltViewModel<MainViewModel>()
+                CounterScreen(mainViewModel)
             }
         }
     )

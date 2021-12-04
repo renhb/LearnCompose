@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import learn.compose.example.ui.theme.Purple700
 import learn.compose.example.viewmodel.MainViewModel
@@ -60,8 +61,8 @@ fun ProfileScreen() {
 }
 
 @Composable
-fun CounterScreen(model: MainViewModel = viewModel()) {
-    val count by model.counterLiveData.observeAsState(0)
+fun CounterScreen(viewModel: MainViewModel) {
+    val count by viewModel.counterLiveData.observeAsState(0)
     val text = "This is $count"
     Column(
         modifier = Modifier
@@ -73,7 +74,7 @@ fun CounterScreen(model: MainViewModel = viewModel()) {
         BasicText(text)
         Button(
             onClick = {
-                model.increaseCounter()
+                viewModel.increaseCounter()
             },
         ) {
             BasicText(text = "Add 1")

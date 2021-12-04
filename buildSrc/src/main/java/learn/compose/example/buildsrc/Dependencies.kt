@@ -50,7 +50,7 @@ object Libs {
         }
 
         object Hilt {
-            private const val version = "1.0.0-alpha01"
+            private const val version = "1.0.0-alpha03"
             const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:$version"
             const val hiltViewModel = "androidx.hilt:hilt-lifecycle-viewmodel:$version"
             const val hiltCompiler = "androidx.hilt:hilt-compiler:$version"
