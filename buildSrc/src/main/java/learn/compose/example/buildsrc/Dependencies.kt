@@ -38,6 +38,7 @@ object Libs {
             const val animation = "androidx.compose.animation:animation:${version}"
             const val tooling = "androidx.compose.ui:ui-tooling:${version}"
             const val iconsExtended = "androidx.compose.material:material-icons-extended:$version"
+            const val liveData = "androidx.compose.runtime:runtime-livedata:$version"
             const val uiTest = "androidx.compose.ui:ui-test-junit4:$version"
         }
 

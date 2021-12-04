@@ -13,9 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
-import learn.compose.example.ui.components.BottomNavigationBar
-import learn.compose.example.ui.components.NavHostContainer
-import learn.compose.example.ui.components.ScaffoldExample
+import learn.compose.example.ui.components.*
 import learn.compose.example.ui.theme.LearnComposeTheme
 
 class MainActivity : ComponentActivity() {
@@ -24,10 +22,13 @@ class MainActivity : ComponentActivity() {
         setContent {
             Surface(color = Color.White) {
                 // Scaffold
-                ScaffoldExample()
+                // ScaffoldExample()
 
                 // Navigation
                 // NavigationExample()
+
+                // ViewModel
+                CounterScreen()
             }
         }
     }
