@@ -7,7 +7,6 @@ object Versions {
 object Libs {
     const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.3"
 
-
     object Kotlin {
         private const val version = "1.5.31"
         const val stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$version"
@@ -27,7 +26,7 @@ object Libs {
 
         object Compose {
             const val snapshot = ""
-            private const val version = "1.1.0-beta03"
+            const val version = "1.1.0-beta03"
 
             const val foundation = "androidx.compose.foundation:foundation:${version}"
             const val layout = "androidx.compose.foundation:foundation-layout:${version}"
@@ -50,6 +49,13 @@ object Libs {
             const val viewModelCompose = "androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0-rc01"
         }
 
+        object Hilt {
+            private const val version = "1.0.0-alpha01"
+            const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:$version"
+            const val hiltViewModel = "androidx.hilt:hilt-lifecycle-viewmodel:$version"
+            const val hiltCompiler = "androidx.hilt:hilt-compiler:$version"
+        }
+
         object Navigation {
             const val navigationCompose = "androidx.navigation:navigation-compose:2.4.0-beta02"
         }
@@ -70,6 +76,13 @@ object Libs {
             }
             const val espressoCore = "androidx.test.espresso:espresso-core:3.2.0"
         }
+    }
+
+    object Hilt {
+        private const val version = "2.38.1"
+        const val hiltAndroidGradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:$version"
+        const val hiltAndroid  = "com.google.dagger:hilt-android:$version"
+        const val hiltAndroidCompiler = "com.google.dagger:hilt-android-compiler:$version"
     }
 
     object JUnit {

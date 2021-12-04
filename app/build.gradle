@@ -4,6 +4,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-parcelize'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
 }
 
 android {
@@ -65,6 +67,12 @@ dependencies {
     implementation Libs.AndroidX.Lifecycle.viewModelCompose
     implementation Libs.AndroidX.Navigation.navigationCompose
     implementation Libs.AndroidX.ConstraintLayout.constraintLayoutCompose
+
+    implementation Libs.Hilt.hiltAndroid
+    kapt Libs.Hilt.hiltAndroidCompiler
+    implementation Libs.AndroidX.Hilt.hiltNavigation
+    implementation Libs.AndroidX.Hilt.hiltViewModel
+    kapt Libs.AndroidX.Hilt.hiltCompiler
 
     implementation Libs.AndroidX.Compose.runtime
     implementation Libs.AndroidX.Compose.foundation
