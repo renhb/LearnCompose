@@ -67,6 +67,7 @@ dependencies {
     implementation Libs.AndroidX.Lifecycle.viewModelCompose
     implementation Libs.AndroidX.Navigation.navigationCompose
     implementation Libs.AndroidX.ConstraintLayout.constraintLayoutCompose
+    implementation Libs.AndroidX.Paging.paging
 
     implementation Libs.Hilt.hiltAndroid
     kapt Libs.Hilt.hiltAndroidCompiler
@@ -86,6 +87,8 @@ dependencies {
     implementation Libs.AndroidX.Compose.liveData
 
     implementation Libs.Coil.coilCompose
+
+    implementation Libs.Common.gson
 
     androidTestImplementation Libs.JUnit.junit
     androidTestImplementation Libs.AndroidX.Test.core

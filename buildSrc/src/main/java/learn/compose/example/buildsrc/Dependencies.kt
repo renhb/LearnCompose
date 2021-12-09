@@ -49,6 +49,12 @@ object Libs {
             const val viewModelCompose = "androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0-rc01"
         }
 
+        object Paging {
+            private const val version = "2.1.2"
+            const val paging = "androidx.paging:paging-runtime:$version"
+            const val pagingTesting = "androidx.paging:paging-common:$version"
+        }
+
         object Hilt {
             private const val version = "1.0.0-alpha03"
             const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:$version"
@@ -92,5 +98,9 @@ object Libs {
 
     object Coil {
         const val coilCompose = "io.coil-kt:coil-compose:1.3.2"
+    }
+
+    object Common {
+        const val gson = "com.google.code.gson:gson:2.8.9"
     }
 }

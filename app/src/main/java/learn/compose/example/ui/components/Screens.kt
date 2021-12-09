@@ -9,7 +9,6 @@ import androidx.compose.material.Button
 import androidx.compose.material.Icon
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -18,27 +17,27 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.viewmodel.compose.viewModel
+import learn.compose.example.ui.home.PokemonScreen
 import learn.compose.example.ui.theme.Purple700
 import learn.compose.example.viewmodel.MainViewModel
 
 @Composable
 fun HomeScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.White),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        Icon(
-            imageVector = Icons.Default.Home,
-            contentDescription = "home",
-            tint = Purple700
-        )
-        Text(text = "Home", color = Color.Black)
-    }
+    // Column(
+    //     modifier = Modifier
+    //         .fillMaxSize()
+    //         .background(Color.White),
+    //     horizontalAlignment = Alignment.CenterHorizontally,
+    //     verticalArrangement = Arrangement.Center
+    // ) {
+    //     Icon(
+    //         imageVector = Icons.Default.Home,
+    //         contentDescription = "home",
+    //         tint = Purple700
+    //     )
+    //     Text(text = "Home", color = Color.Black)
+    // }
+    PokemonScreen()
 }
 
 @Composable

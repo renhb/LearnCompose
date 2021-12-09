@@ -1,0 +1,178 @@
+[
+  {
+    "zukan_id": "001",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u5999\u86d9\u79cd\u5b50",
+    "pokemon_sub_name": "",
+    "weight": 6.9,
+    "height": 0.7,
+    "file_name": "\/img\/pm\/cf47f9fac4ed3037ff2a8ea83204e32aff8fb5f3.png",
+    "pokemon_type_id": "grass,poison",
+    "pokemon_type_name": "\u8349,\u6bd2"
+  },
+  {
+    "zukan_id": "002",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u5999\u86d9\u8349",
+    "pokemon_sub_name": "",
+    "weight": 13,
+    "height": 1,
+    "file_name": "\/img\/pm\/3245e4f8c04aa0619cb31884dbf123c6918b3700.png",
+    "pokemon_type_id": "grass,poison",
+    "pokemon_type_name": "\u8349,\u6bd2"
+  },
+  {
+    "zukan_id": "003",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u5999\u86d9\u82b1",
+    "pokemon_sub_name": "",
+    "weight": 100,
+    "height": 2,
+    "file_name": "\/img\/pm\/0186d64c5773c8d3d03cd05dc79574b2d2798d4f.png",
+    "pokemon_type_id": "grass,poison",
+    "pokemon_type_name": "\u8349,\u6bd2"
+  },
+  {
+    "zukan_id": "003",
+    "zukan_sub_id": 1,
+    "pokemon_name": "\u8d85\u7ea7\u5999\u86d9\u82b1",
+    "pokemon_sub_name": "",
+    "weight": 155.5,
+    "height": 2.4,
+    "file_name": "\/img\/pm\/3bfcc4360c44f37815dc1e59f75818935cbfc41b.png",
+    "pokemon_type_id": "grass,poison",
+    "pokemon_type_name": "\u8349,\u6bd2"
+  },
+  {
+    "zukan_id": "003",
+    "zukan_sub_id": 2,
+    "pokemon_name": "\u5999\u86d9\u82b1",
+    "pokemon_sub_name": "\u8d85\u6781\u5de8\u5316",
+    "weight": 999.99,
+    "height": 24,
+    "file_name": "\/img\/pm\/6b55babb3825ef9fa9e5d9ff44a14bdb8406ce97.png",
+    "pokemon_type_id": "grass,poison",
+    "pokemon_type_name": "\u8349,\u6bd2"
+  },
+  {
+    "zukan_id": "004",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u5c0f\u706b\u9f99",
+    "pokemon_sub_name": "",
+    "weight": 8.5,
+    "height": 0.6,
+    "file_name": "\/img\/pm\/d0ee81f16175c97770192fb691fdda8da1f4f349.png",
+    "pokemon_type_id": "fire",
+    "pokemon_type_name": "\u706b"
+  },
+  {
+    "zukan_id": "005",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u706b\u6050\u9f99",
+    "pokemon_sub_name": "",
+    "weight": 19,
+    "height": 1.1,
+    "file_name": "\/img\/pm\/285395ca77d82861fd30cea64567021a50c1169c.png",
+    "pokemon_type_id": "fire",
+    "pokemon_type_name": "\u706b"
+  },
+  {
+    "zukan_id": "006",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u55b7\u706b\u9f99",
+    "pokemon_sub_name": "",
+    "weight": 90.5,
+    "height": 1.7,
+    "file_name": "\/img\/pm\/2050f1fd1283f473d7d048f8631712e7e003f802.png",
+    "pokemon_type_id": "fire,flying",
+    "pokemon_type_name": "\u706b,\u98de\u884c"
+  },
+  {
+    "zukan_id": "006",
+    "zukan_sub_id": 1,
+    "pokemon_name": "\u8d85\u7ea7\u55b7\u706b\u9f99\uff38",
+    "pokemon_sub_name": "",
+    "weight": 110.5,
+    "height": 1.7,
+    "file_name": "\/img\/pm\/ca3db4aad5c85a525d9be86852b26db1db7a22c0.png",
+    "pokemon_type_id": "fire,dragon",
+    "pokemon_type_name": "\u706b,\u9f99"
+  },
+  {
+    "zukan_id": "006",
+    "zukan_sub_id": 2,
+    "pokemon_name": "\u8d85\u7ea7\u55b7\u706b\u9f99\uff39",
+    "pokemon_sub_name": "",
+    "weight": 100.5,
+    "height": 1.7,
+    "file_name": "\/img\/pm\/0aa78a0061bda9d88cbb0bbf739cd9cc56522fe9.png",
+    "pokemon_type_id": "fire,flying",
+    "pokemon_type_name": "\u706b,\u98de\u884c"
+  },
+  {
+    "zukan_id": "006",
+    "zukan_sub_id": 3,
+    "pokemon_name": "\u55b7\u706b\u9f99",
+    "pokemon_sub_name": "\u8d85\u6781\u5de8\u5316",
+    "weight": 999.99,
+    "height": 28,
+    "file_name": "\/img\/pm\/2fd12098f15628cce80d411e090189aeb7d758ff.png",
+    "pokemon_type_id": "fire,flying",
+    "pokemon_type_name": "\u706b,\u98de\u884c"
+  },
+  {
+    "zukan_id": "007",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u6770\u5c3c\u9f9f",
+    "pokemon_sub_name": "",
+    "weight": 9,
+    "height": 0.5,
+    "file_name": "\/img\/pm\/5794f0251b1180998d72d1f8568239620ff5279c.png",
+    "pokemon_type_id": "water",
+    "pokemon_type_name": "\u6c34"
+  },
+  {
+    "zukan_id": "008",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u5361\u54aa\u9f9f",
+    "pokemon_sub_name": "",
+    "weight": 22.5,
+    "height": 1,
+    "file_name": "\/img\/pm\/a3bc17e6215031332462cc64e59b7922ddd14b91.png",
+    "pokemon_type_id": "water",
+    "pokemon_type_name": "\u6c34"
+  },
+  {
+    "zukan_id": "009",
+    "zukan_sub_id": 0,
+    "pokemon_name": "\u6c34\u7bad\u9f9f",
+    "pokemon_sub_name": "",
+    "weight": 85.5,
+    "height": 1.6,
+    "file_name": "\/img\/pm\/2fe157db59153af8abd636ab03c7df6f28b08242.png",
+    "pokemon_type_id": "water",
+    "pokemon_type_name": "\u6c34"
+  },
+  {
+    "zukan_id": "009",
+    "zukan_sub_id": 1,
+    "pokemon_name": "\u8d85\u7ea7\u6c34\u7bad\u9f9f",
+    "pokemon_sub_name": "",
+    "weight": 101.1,
+    "height": 1.6,
+    "file_name": "\/img\/pm\/00186af714a048895ba8116e71b08671c3cfb8f5.png",
+    "pokemon_type_id": "water",
+    "pokemon_type_name": "\u6c34"
+  },
+  {
+    "zukan_id": "009",
+    "zukan_sub_id": 2,
+    "pokemon_name": "\u6c34\u7bad\u9f9f",
+    "pokemon_sub_name": "\u8d85\u6781\u5de8\u5316",
+    "weight": 999.99,
+    "height": 25,
+    "file_name": "\/img\/pm\/50eba0f85c4e9a039be078e7de0b10acc7323264.png",
+    "pokemon_type_id": "water",
+    "pokemon_type_name": "\u6c34"
+  }
+]
