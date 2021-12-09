@@ -41,6 +41,12 @@ object Libs {
             const val uiTest = "androidx.compose.ui:ui-test-junit4:$version"
         }
 
+        object Accompanist {
+            private const val version = "0.21.4-beta"
+            const val pager = "com.google.accompanist:accompanist-pager:$version"
+            const val pagerIndicators = "com.google.accompanist:accompanist-pager-indicators:$version"
+        }
+
         object Activity {
             const val activityCompose = "androidx.activity:activity-compose:1.4.0"
         }

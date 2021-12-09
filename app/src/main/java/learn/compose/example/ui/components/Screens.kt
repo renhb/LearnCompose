@@ -50,12 +50,13 @@ fun ProfileScreen() {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        Icon(
-            imageVector = Icons.Default.Person,
-            contentDescription = "Profile",
-            tint = Purple700
-        )
-        Text(text = "Profile", color = Color.Black)
+        // Icon(
+        //     imageVector = Icons.Default.Person,
+        //     contentDescription = "Profile",
+        //     tint = Purple700
+        // )
+        // Text(text = "Profile", color = Color.Black)
+        BannerExample()
     }
 }
 
