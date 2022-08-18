@@ -11,7 +11,7 @@ class MainViewModel @Inject constructor() : ViewModel() {
     val counterLiveData: LiveData<Int>
         get() = counter
 
-    private val counter = MutableLiveData<Int>()
+    val counter = MutableLiveData<Int>()
     private var count = 0
 
     fun increaseCounter() {

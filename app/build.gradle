@@ -101,4 +101,6 @@ dependencies {
     androidTestImplementation Libs.AndroidX.Test.Ext.junit
     androidTestImplementation Libs.Coroutines.test
     androidTestImplementation Libs.AndroidX.Compose.uiTest
+
+    implementation 'com.airbnb.android:mavericks-compose:2.6.1'
 }

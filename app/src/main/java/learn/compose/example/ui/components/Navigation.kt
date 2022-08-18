@@ -53,8 +53,7 @@ fun NavHostContainer(
 
             // route: Counter
             composable("counter") {
-                val mainViewModel = hiltViewModel<MainViewModel>()
-                CounterScreen(mainViewModel)
+                CounterScreen()
             }
         }
     )
